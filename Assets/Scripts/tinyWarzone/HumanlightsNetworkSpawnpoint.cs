@@ -1,0 +1,1 @@
+namespace Humanlights.Unity.Network { public class HumanlightsNetworkSpawnpoint : HumanlightsBehaviour { } }
