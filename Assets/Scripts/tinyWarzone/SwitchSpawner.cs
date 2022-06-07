@@ -1,6 +1,9 @@
 using tinyWarzone.Entities;
-public class SwitchSpawner : EntitySpawner
-{
-    public EntitySpawner Spawner;
 
+namespace tinyWarzone.Spawner
+{
+    public class SwitchSpawner : EntitySpawner
+    {
+        public EntitySpawner Spawner;
+	}
 }

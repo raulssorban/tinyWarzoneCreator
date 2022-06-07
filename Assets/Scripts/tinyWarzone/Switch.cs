@@ -6,5 +6,6 @@ namespace tinyWarzone.Entities
     {
         public float Delay;
         public uint ObjectId;
+        [ReadOnly] public BaseSwitchObject Object;
 	}
 }

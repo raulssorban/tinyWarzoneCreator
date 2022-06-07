@@ -5,5 +5,6 @@ namespace tinyWarzone.UI.Template
 {
     public class SettingsSlider : BaseSettingsComponent<float>
     {
+        public HumanlightsSlider Slider;
 	}
 }

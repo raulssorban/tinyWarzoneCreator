@@ -13,6 +13,10 @@ namespace tinyWarzone.Entities
         public float CannotExplodeUntil = 3f;
         public EntityRef Explosion;
         public float Lifetime = 10f;
+        [ReadOnly] public bool IsLaunched;
+        [ReadOnly] public BaseEntity Target;
+        [ReadOnly] public Vector3 TargetPosition;
+        [LargeHeader ( "References" )]
         public GameObject Ignition;
 	}
 }

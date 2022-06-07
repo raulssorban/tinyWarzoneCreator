@@ -5,5 +5,6 @@ namespace tinyWarzone.UI.Template
 {
     public class SettingsToggle : BaseSettingsComponent<bool>
     {
+        public HumanlightsToggle Toggle;
 	}
 }

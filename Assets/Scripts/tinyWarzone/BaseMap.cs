@@ -1,7 +1,6 @@
 using tinyWarzone.Player;
 using UnityEngine;
 using UnityEngine.Rendering.PostProcessing;
-[CreateAssetMenu ( menuName = "tinyWarzone/Create Map" )]
 public class BaseMap : HumanlightsScriptable
 {
     public string Id;

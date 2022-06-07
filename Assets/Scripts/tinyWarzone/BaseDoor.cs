@@ -1,3 +1,4 @@
+using Humanlights.Tools;
 using System;
 using UnityEngine;
 public class BaseDoor : BaseInteractible

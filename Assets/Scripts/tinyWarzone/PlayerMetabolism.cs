@@ -3,6 +3,7 @@ namespace tinyWarzone.Player
 {
     public class PlayerMetabolism : PlayerNetworkedComponent
     {
+        [LargeHeader ( "Stamina" )]
         public float Stamina;
         public float MaximumStamina = 100f;
         public float SprintStaminaWaste = 0.2f;

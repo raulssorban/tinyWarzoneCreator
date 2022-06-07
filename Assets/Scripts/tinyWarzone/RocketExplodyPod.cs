@@ -13,6 +13,9 @@ namespace tinyWarzone.Entities
         public float MapScrollSpeed = 10f;
         public int Countdown = 5;
         public int TakeoffCooldown = 5;
+        [ReadOnly] public BaseEntity SelectedTarget;
+        [ReadOnly] public Vector3 SelectedTargetPosition;
+        [LargeHeader ( "References" )]
         public TMPro.TMP_Text Text;
         public Rocket RocketRef;
         public EntityRef [] Pods;

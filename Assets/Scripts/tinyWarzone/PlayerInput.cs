@@ -1,10 +1,13 @@
+using Humanlights.Tools;
 using tinyWarzone.Entities;
+using tinyWarzone.UI;
 using UnityEngine;
 
 namespace tinyWarzone.Player
 {
     public class PlayerInput : PlayerComponent
     {
+        [LargeHeader ( "Keys" )]
         public KeyCode UseKey = KeyCode.E;
         public KeyCode ModeToggleKey = KeyCode.V;
         public float NoclipSpeed = 0.5f;

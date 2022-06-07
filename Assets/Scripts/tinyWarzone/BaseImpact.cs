@@ -1,8 +1,9 @@
+using Humanlights.Unity.Sound;
 using UnityEngine;
-[CreateAssetMenu ( menuName = "tinyWarzone/Impact/Create Impact" )]
 public class BaseImpact : HumanlightsScriptable
 {
     public ImpactTypes Type = ImpactTypes.Low;
+    public SoundDefinition Definition;
     public BaseEntity Effect;
     public enum ImpactTypes
     {

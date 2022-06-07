@@ -1,4 +1,7 @@
-public class CutsceneSpawner : EntitySpawner
-{
 
+namespace tinyWarzone.Spawner
+{
+    public class CutsceneSpawner : EntitySpawner
+    {
+	}
 }

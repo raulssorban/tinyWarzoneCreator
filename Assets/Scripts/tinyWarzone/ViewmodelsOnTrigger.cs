@@ -1,4 +1,7 @@
-public class ViewmodelsOnTrigger : BaseTrigger
-{
 
+namespace tinyWarzone.Trigger
+{
+    public class ViewmodelsOnTrigger : BaseTrigger
+    {
+	}
 }

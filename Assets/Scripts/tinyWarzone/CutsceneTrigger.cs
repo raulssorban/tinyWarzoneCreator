@@ -1,8 +1,14 @@
+using Humanlights.Tools;
 using System.Linq;
-public class CutsceneTrigger : BaseTrigger
-{
-    public int Lobby = -1;
-    public BaseCutscene Cutscene;
-    public bool CanRetrigger = false;
 
+namespace tinyWarzone.Trigger
+{
+    public class CutsceneTrigger : BaseTrigger
+    {
+        [LargeHeader ( "Cutscene" )]
+        public int Lobby = -1;
+        public BaseCutscene Cutscene;
+        public bool CanRetrigger = false;
+        [ReadOnly] public bool HasBeenTriggered = false;
+	}
 }

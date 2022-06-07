@@ -4,6 +4,7 @@ namespace tinyWarzone
 {
     public class Rotor : HumanlightsBehaviour
     {
+        [LargeHeader ( "Properties" )]
         public float Lerp = 0.25f;
         public float Speed;
         public float CurrentSpeed;
@@ -11,6 +12,7 @@ namespace tinyWarzone
         public bool RotateX;
         public bool RotateY = true;
         public bool RotateZ;
+        [LargeHeader ( "Randomization" )]
         public float RegenerateSpeedAfterSeconds;
         public bool UseRandomSpeed = true;
         public float MinRandomSpeed = 0f;

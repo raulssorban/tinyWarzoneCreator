@@ -1,8 +1,12 @@
 using System.Collections.Generic;
 using UnityEngine;
-public class ParentOnTrigger : BaseTrigger
-{
-    public Transform Parent;
-    public float Amplifier = 1f;
 
+namespace tinyWarzone.Trigger
+{
+    public class ParentOnTrigger : BaseTrigger
+    {
+        public Transform Parent;
+        [ReadOnly] public List<BaseEntity> Children = new List<BaseEntity> ();
+        public float Amplifier = 1f;
+	}
 }

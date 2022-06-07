@@ -10,5 +10,7 @@ public class CameraAutoFocus : HumanlightsBehaviour
     public float Distance = 30f;
     public float Offset;
     public LayerMask Mask;
+    [ReadOnly] public float DefaultDistance;
+    [ReadOnly] public float DefaultAperture;
 
 }
